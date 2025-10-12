@@ -1,16 +1,14 @@
 class Solution(object):
-    def searchInsert(self, nums, target):
+    def containsDuplicate(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: int
+        :rtype: bool
         """
-        if nums[-1] < target:
-            return len(nums)
 
-        for i, val in enumerate(nums):
-            if val >= target:
-                return i
+        num=set(nums)
 
-
+        if len(num) == len(nums):
+            return False
+        else:
+            return True
         
