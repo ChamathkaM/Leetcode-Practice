@@ -5,10 +5,10 @@ class Solution(object):
         :rtype: bool
         """
 
-        nums.sort()
+        num=set(nums)
 
-        for i in range(len(nums)-1):
-            if nums[i] == nums[i+1]:
-                return True
-        return False
+        if len(num) == len(nums):
+            return  False
+
+        return True
         
