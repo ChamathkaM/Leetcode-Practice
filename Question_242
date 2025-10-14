@@ -1,0 +1,15 @@
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        
+        snew="".join(sorted(s))
+        tnew="".join(sorted(t))
+        if snew == tnew:
+            return True
+        else:
+            return False
+        
