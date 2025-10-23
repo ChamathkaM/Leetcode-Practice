@@ -4,10 +4,13 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        node= None 
-        while head:
-            prev=head.next
-            head.next=node
-            node=head
-            head=prev
-        return node
+        prev= None 
+        curr=head
+
+        while curr:
+            temp=curr.next
+            curr.next=prev
+            prev=curr
+            curr=temp
+            
+        return prev
