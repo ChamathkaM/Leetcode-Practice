@@ -1,4 +1,5 @@
 #not a successful solution
+# proper solution should be implemented with by considering mid point
 class Solution(object):
     def mySqrt(self, x):
         """
