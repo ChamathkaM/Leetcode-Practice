@@ -13,7 +13,7 @@ class Solution(object):
 
         while num2ind >= 0:
 
-            if num1ind >= 0 and nums1[num1ind] > nums2[num2ind]:
+            if num1ind >= 0 and nums1[num1ind] > nums2[num2ind]: #important notes: python executes from left to wrote so we can define a condition on left and it would work
                 nums1[num1len] = nums1[num1ind]
                 num1ind -= 1
             else:
