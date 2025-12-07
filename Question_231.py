@@ -4,6 +4,7 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
+        #optimized solution
         if n == 1:
             return True
         if n <=0:
