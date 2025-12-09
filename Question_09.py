@@ -1,5 +1,5 @@
 class Solution(object):
-    #a simple problem
+    #simple problem
     def isPalindrome(self, x):
         """
         :type x: int
