@@ -1,4 +1,4 @@
-#wrong solution
+#wrong solutio
 if len(s) != len(t):
             return False
 
