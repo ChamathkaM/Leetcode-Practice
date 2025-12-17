@@ -1,4 +1,5 @@
 #Pascal's Triangle
+#not the most optimized solution
 class Solution(object):
     def generate(self, numRows):
         """
