@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution(object):#ispandrome
     def isPalindrome(self, s):
         """
         :type s: str
