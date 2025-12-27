@@ -1,4 +1,4 @@
-class Solution(object):#roamnint
+class Solution(object):#roamnint num
     def romanToInt(self, s):
         """
         :type s: str
