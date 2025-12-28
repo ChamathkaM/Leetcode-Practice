@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution(object):#single number
     def singleNumber(self, nums):
         """
         :type nums: List[int]
